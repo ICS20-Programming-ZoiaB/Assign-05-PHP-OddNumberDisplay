@@ -1,0 +1,31 @@
+/* Created by: ZoiaB
+* Created on: May 2023
+* This CSS file defines the style for index.html
+* ICS2O-Unit5-01-HTML-OddNumberDisplay
+*/
+
+body {
+  padding: 10px;
+  width: 80%;
+  margin: 5% 10%;
+  background-color: lemonchiffon; 
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  background-color: #9BC1BC;
+}
+
+h3 {
+  text-align: center;
+  padding: 30px;
+  color: rgb(237 106 90);
+}
+
+iframe {
+  padding: 30px;
+  background-color: #9BC1BC;
+  margin-top: 30px;
+}
