@@ -26,9 +26,9 @@
     <?php echo "<h1>Odd Number Display, PHP</h1>"; ?>
   
     <!-- Header and text -->
-      <?php
-        echo "<p>Input a positive integer and this webpage will display all the odd numbers up to your number, from the maximum number.</p>";
-        echo "<h3>Your Input:</h3>"; ?>
+    <?php
+      echo "<p>Welcome! Input a minimum and maximum number below, and we will display all the even numbers ranging between the minimum and maximum you specify.</p>";
+      echo "<h3>Your Input:</h3>"; ?>
     
     <!-- Form for user input -->
     <form action="./results.php" method="post" target="results">
