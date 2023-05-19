@@ -27,7 +27,7 @@
   
     <!-- Header and text -->
     <?php
-      echo "<p>Welcome! Input a minimum and maximum number below, and we will display all the even numbers ranging between the minimum and maximum you specify.</p>";
+      echo "<p>Input a positive starting number and then a positive stopping number, and this webpage will give you all the odd numbers in between!.</p>";
       echo "<h3>Your Input:</h3>"; ?>
     
     <!-- Form for user input -->

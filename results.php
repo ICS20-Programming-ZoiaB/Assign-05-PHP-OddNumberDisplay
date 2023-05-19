@@ -29,7 +29,7 @@
   else {
     //while loop that specifies the range
     while (($counter >= $minNumber) && ($counter <= $maxNumber)) {
-      //if statement checks for even numbers; it uses a line of code that makes sure that the remainder is 1 when the number is divided by 2.
+      // if statement checks for odd numbers, provided that the condition in the while statement is true. It uses an operator that determines if there is a remainder when the number is divided by 2 (method taken from https://www.tutorialspoint.com/How-to-determine-if-a-number-is-odd-or-even-in-JavaScript)
       if (($counter <= $maxNumber) && ($counter % 2 == 1)) {
         $numbers = $numbers . $counter . "<br>";
       }
