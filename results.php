@@ -29,12 +29,12 @@
   else {
     //while loop that specifies the range
     while (($counter >= $minNumber) && ($counter <= $maxNumber)) {
-      //if statement checks for even numbers
+      //if statement checks for even numbers; it uses a line of code that makes sure that the remainder is 1 when the number is divided by 2.
       if (($counter <= $maxNumber) && ($counter % 2 == 1)) {
         $numbers = $numbers . $counter . "<br>";
       }
       $counter = $counter + 1;
-      $message = "Here is a list of all the odd numbers between the minimum and maximum that you entered:<br><br>$numbers";
+      $message = "Here are all the odd numbers between your selected numbers:<br><br>$numbers";
     }
   }
 

@@ -32,7 +32,8 @@
     
     <!-- Form for user input -->
     <form action="./results.php" method="post" target="results">
-      <label for="min number">Enter the starting number:</label>
+      <label for="min number">Number you would like the list to start at:
+</label>
       <input type="number" step="1" name="min-number" placeholder="Minimum"><br><br>
       <label for="max number">Enter your stopping number:</label>
       <input type="number" step="1" name="max-number" placeholder="Maximum"><br><br>
