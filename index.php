@@ -27,7 +27,7 @@
   
     <!-- Header and text -->
     <?php
-      echo "<p>Input a positive starting number and then a positive stopping number, and this webpage will give you all the odd numbers in between!.</p>";
+      echo "<p>Input a positive starting number and then a positive stopping number, and this webpage will give you all the odd numbers in between!</p>";
       echo "<h3>Your Input:</h3>"; ?>
     
     <!-- Form for user input -->
@@ -45,7 +45,9 @@
     <iframe id="results" name="results"></iframe>
 
     <!-- Image -->
+    <center>
     <br>
     <img src="./images/odd-number-chart.jpg" alt="Odd Numbers" length="400" width="400">
+    </center>
   </body>
 </html>

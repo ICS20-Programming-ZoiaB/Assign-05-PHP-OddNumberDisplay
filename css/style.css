@@ -8,7 +8,8 @@ body {
   padding: 10px;
   width: 80%;
   margin: 5% 10%;
-  background-color: lemonchiffon; 
+  background-color: lemonchiffon;
+  text-align: center;
 }
 
 h1 {
@@ -22,6 +23,12 @@ h3 {
   text-align: center;
   padding: 30px;
   color: rgb(237 106 90);
+}
+
+p {
+  text-align: center;
+  padding: 30px;
+  color: hsl(7 61% 36%);
 }
 
 iframe {
