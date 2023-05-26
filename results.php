@@ -4,8 +4,8 @@ $numbers = "";
 $message = "";
 
 // Getting the user values for the minimum and maximum numbers
-$minNumber = intval($_POST['min-number']);
-$maxNumber = intval($_POST['max-number']);
+$minNumber = $_POST['min-number'];
+$maxNumber = $_POST['max-number'];
 
 // If statement checks to verify that user input is valid using is_numeric (method from: https://www.w3schools.com/php/func_va r_is_numeric.asp)
 if (!is_numeric($minNumber) || !is_numeric($maxNumber)) {
