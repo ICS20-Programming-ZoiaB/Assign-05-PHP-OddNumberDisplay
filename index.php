@@ -39,6 +39,19 @@
       <input type="number" step="1" name="max-number" placeholder="Maximum"><br><br>
       <input type="submit" value="Submit Numbers" id="submit-button" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
     </form>
+    
+    <!-- Radio buttons for option to display list in reverse -->
+    <br>
+    <?php echo "<p>Do you want the list to be in reverse order?</p>"; ?>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="reversed">
+        <input type="radio" id="reversed" class="mdl-radio__button" name="reversed" value="reversed">
+        <span class="mdl-radio__label">Yes</span>
+      </label>
+
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="not-reversed">
+        <input type="radio" id="not-reversed" class="mdl-radio__button" name="not-reversed" value="2">
+        <span class="mdl-radio__label">No</span>
+      </label>
 
     <!-- Iframe -->
     <br>
