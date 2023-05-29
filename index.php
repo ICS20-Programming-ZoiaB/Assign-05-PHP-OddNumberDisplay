@@ -41,10 +41,10 @@
       <span>Yes</span>
     </label>
     <label>
-      <input type="radio" name="order" value="not-reversed">
+      <input type="radio" name="order" value="not-reversed" checked>
       <span>No</span>
     </label><br><br>
-
+    
     <input type="submit" value="Submit Numbers" id="submit-button" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
   </form>
 
@@ -53,9 +53,7 @@
   <iframe id="results" name="results"></iframe>
 
   <!-- Image -->
-  <center>
-    <br>
-    <img src="./images/odd-number-chart.jpg" alt="Odd Numbers" length="400" width="400">
-  </center>
+  <br>
+  <img src="./images/odd-number-chart.jpg" alt="Odd Numbers" length="400" width="400">
 </body>
 </html>
