@@ -36,17 +36,20 @@
     <input type="number" step="1" name="min-number" placeholder="Minimum"><br><br>
     <label for="max-number">Enter your stopping number:</label>
     <input type="number" step="1" name="max-number" placeholder="Maximum"><br><br>
-    
-    <?php echo "<p>Do you want the list to be in reverse order?</p>"; ?>
+
+  <!-- Radio buttons for option to reverse list order -->
+  <?php echo "<p>Do you want the list to be in reverse order?</p>"; ?>
     <label>
       <input type="radio" name="order" value="reversed">
       <span>Yes</span>
     </label>
+
     <label>
       <input type="radio" name="order" value="not-reversed" checked>
       <span>No</span>
     </label><br><br>
-    
+
+    <!-- Button to submit input -->
     <input type="submit" value="Submit Numbers" id="submit-button" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
   </form>
 
