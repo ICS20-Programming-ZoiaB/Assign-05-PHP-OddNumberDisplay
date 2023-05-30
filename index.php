@@ -22,11 +22,13 @@
   <title>Odd Number Display, PHP</title>
 </head>
 <body>
-  <h1>Odd Number Display, PHP</h1>
 
   <!-- Header and text -->
-  <p>Input a positive starting number and then a positive stopping number, and this webpage will give you all the odd numbers in between!</p>
-  <h3>Your Input:</h3>
+  <?php
+  echo "<h1>Odd Number Display, PHP</h1>";
+  echo "<p>Input a starting number and then a stopping number, and this webpage will give you all the odd numbers in between!</p>";
+  echo "<h3>Your Input:</h3>";
+  ?>
 
   <!-- Form for user input -->
   <form action="./results.php" method="post" target="results">
@@ -35,7 +37,7 @@
     <label for="max-number">Enter your stopping number:</label>
     <input type="number" step="1" name="max-number" placeholder="Maximum"><br><br>
     
-    <p>Do you want the list to be in reverse order?</p>
+    <?php echo "<p>Do you want the list to be in reverse order?</p>"; ?>
     <label>
       <input type="radio" name="order" value="reversed">
       <span>Yes</span>
