@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
+  
   <!-- Metadata -->
   <meta charset="utf-8">
   <meta name="description" content="Odd Number Display, PHP">
