@@ -1,5 +1,5 @@
 <?php
-// Initializing the numbers and message variable to an empty string
+// Initializing the numbers and message variables to an empty string
 $numbers = "";
 $message = "";
 
@@ -26,7 +26,7 @@ else {
     $counter = $maxNumber;
     //Do while loop to display list of odd numbers in reverse
     do {
-         // if statement checks for odd numbers, provided that the condition in the while statement is true. It uses an operator that determines if there is a remainder when the number is divided by 2 (method taken from https://www.tutorialspoint.com/How-to-determine-if-a-number-is-odd-or-even-in-JavaScript)
+      // if statement checks for odd numbers. It uses an operator that determines if there is a remainder when the number is divided by 2 (method taken from https://www.tutorialspoint.com/How-to-determine-if-a-number-is-odd-or-even-in-JavaScript)
       if ($counter % 2 !== 0) {
         $numbers .= $counter . "<br>";
       }
@@ -39,7 +39,7 @@ else {
   else {
     $counter = $minNumber;
     while ($counter <= $maxNumber) {
-      // if statement checks for odd numbers, provided that the condition in the while statement is true. It uses an operator that determines if there is a remainder when the number is divided by 2 (method taken from https://www.tutorialspoint.com/How-to-determine-if-a-number-is-odd-or-even-in-JavaScript)
+      // if statement checks for odd numbers. It uses an operator that determines if there is a remainder when the number is divided by 2 (method taken from https://www.tutorialspoint.com/How-to-determine-if-a-number-is-odd-or-even-in-JavaScript)
       if ($counter % 2 !== 0) {
         $numbers .= $counter . "<br>";
       }
