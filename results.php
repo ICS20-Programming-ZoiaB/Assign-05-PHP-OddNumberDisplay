@@ -51,6 +51,6 @@ else {
   $message = "Here are all the odd numbers between your selected numbers:<br><br>" . $numbers;
 }
 
-// Display the results (the range of odd numbers) back to the user
+// Display the results (the list of odd numbers) back to the user
 echo $message;
 ?>
